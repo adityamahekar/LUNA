@@ -97,11 +97,10 @@ To learn more about React Native, take a look at the following resources:
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
 ```
-# make sure you're up to date
-git checkout main
-git pull
-
-# create and switch to the new branch
-git checkout -b feature/login-screen
+git status
+git checkout -b feature/drawer-overlap-icon
+git add -A
+git commit -m "feat: custom drawer with overlapping header icon"
+git push -u origin feature/drawer-overlap-icon
 
 ```
